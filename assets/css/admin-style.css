@@ -1,0 +1,94 @@
+#ptw-generate-prediction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#ptw-generate-prediction label {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #23282d;
+}
+
+#ptw-generate-prediction select,
+#ptw-generate-prediction input,
+#ptw-generate-prediction button {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 12px;
+  color: #333;
+}
+
+#ptw-generate-prediction select,
+#ptw-generate-prediction input,
+#ptw-generate-prediction button {
+  width: 33%; /* Sesuaikan lebar sesuai kebutuhan */
+}
+
+#ptw-generate-prediction button {
+  background-color: #0073aa;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ptw-generate-prediction button:hover {
+  background-color: #005177;
+}
+
+#ptw-prediction-container {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+#ptw-prediction-result {
+  margin-bottom: 12px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #333;
+}
+
+#ptw-prediction-actions {
+  display: none;
+  margin-top: 8px;
+}
+
+#ptw-prediction-actions.show {
+  display: block;
+}
+
+#ptw-prediction-actions .button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  background-color: #f0f0f0;
+  color: #23282d;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ptw-prediction-actions .button:hover {
+  background-color: #e0e0e0;
+}
+
+#ptw-prediction-actions .button:active {
+  background-color: #d0d0d0;
+}
+.ptw-prediction-table {
+  width: 100%;
+  text-align: left;
+}
+.ptw-prediction-table tr {
+  display: inherit;
+}
