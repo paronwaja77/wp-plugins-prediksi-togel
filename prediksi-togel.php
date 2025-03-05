@@ -4,7 +4,7 @@ Plugin Name: Prediksi Togel
 Description: Plugin untuk menghasilkan dan menampilkan prediksi.
 Version: 1.0
 Author: Paron Waja
-Author URI: https://example.com
+Author URI: http://datahklotto.info/
 License: GPL2
 */
 
