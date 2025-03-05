@@ -20,7 +20,7 @@ define('PTW_PLUGIN_URL', plugin_dir_url(__FILE__));
 $includes = [
     'includes/class-ptw-database.php',
     'includes/class-ptw-api.php',
-    'includes/class-ptw-shortcode.php',
+//    'includes/class-ptw-shortcode.php',
     'includes/class-ptw-admin.php',
     'includes/class-ptw-about.php'
 ];
@@ -32,9 +32,9 @@ foreach ($includes as $file) {
 }
 
 // Aktifkan tabel database saat plugin diaktifkan
-register_activation_hook(__FILE__, ['PTW_Database', 'create_table']);
+// register_activation_hook(__FILE__, ['PTW_Database', 'create_table']);
 // Hapus tabel database saat plugin di-uninstall
-register_uninstall_hook(__FILE__, ['PTW_Database', 'delete_table']);
+// register_uninstall_hook(__FILE__, ['PTW_Database', 'delete_table']);
 
 // Inisialisasi API, Shortcode, dan Admin
 add_action('rest_api_init', ['PTW_API', 'register_routes']);
