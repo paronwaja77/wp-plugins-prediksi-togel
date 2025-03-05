@@ -40,7 +40,7 @@ class PTW_About {
                 <li>Gunakan opsi "Insert Teks" atau "Insert Tabel HTML" untuk menambahkan hasil prediksi ke dalam postingan.</li>
             </ol>
 
-            <p>Untuk dokumentasi lengkap dan bantuan, silakan kunjungi <a href="https://example.com" target="_blank" style="color: #0073aa; text-decoration: none;">dokumentasi resmi</a>.</p>
+            <p>Untuk dokumentasi lengkap dan bantuan, silakan kunjungi <a href="http://datahklotto.info/" target="_blank" style="color: #0073aa; text-decoration: none;">dokumentasi resmi</a>.</p>
         </div>
     </div>
     
@@ -49,9 +49,9 @@ class PTW_About {
         <h2 style="color: #0073aa;">Informasi Plugin</h2>
         <p><strong>Versi:</strong> 1.0</p>
         <p><strong>Author:</strong> Nama Anda</p>
-        <p><strong>Website:</strong> <a href="https://example.com" target="_blank">example.com</a></p>
+        <p><strong>Website:</strong> <a href="http://datahklotto.info/" target="_blank">example.com</a></p>
         <p><strong>Dukungan & Donasi:</strong></p>
-        <a href="https://www.paypal.com/donate?hosted_button_id=EXAMPLE" target="_blank" style="display: block; text-align: center; background: #0073aa; color: #fff; padding: 10px; border-radius: 5px; text-decoration: none;">Donasi via PayPal</a>
+        <a href="https://www.paypal.com/donate?hosted_button_id=airimaahven@gmail.com" target="_blank" style="display: block; text-align: center; background: #0073aa; color: #fff; padding: 10px; border-radius: 5px; text-decoration: none;">Donasi via PayPal</a>
     </aside>
 </div>
 
